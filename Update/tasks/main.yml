@@ -1,4 +1,7 @@
 ---
+- name: run subscription-manager refresh
+  command: /usr/sbin/subscription-manager refresh
+
 - name: run yum update
   yum: 
     name: '*' 
