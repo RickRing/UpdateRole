@@ -1,7 +1,9 @@
 ---
-- name: run find /var/log -name "*201*" -delete
-  command: find /var/log -name "*201*" -delete
-- name: run /usr/sbin/rmabrt
-  shell: /usr/sbin/rmabrt
+- name: run find /var/log -name "*2022*" -delete
+  command: find /var/log -name "*2023*" -delete
+- name: run find /var/log -name "*2024*" -delete
+  command: find /var/log -name "*2024*" -delete
+- name: run find /var/log -name "*log.old*" -delete
+  command: find /var/log -name "*log.old*" -delete
 
 
